@@ -9,12 +9,12 @@ class Tolov(ABC):
 
 class NaqdTolov(Tolov):
     def tolash(self, summa):
-        print(summa, "so'm naqd pul orqali to'landi.")
+        print(f"{summa} so'm naqd pul orqali to'landi.")
 
 
 class KartaTolovi(Tolov):
     def tolash(self, summa):
-        print(summa, "so'm karta orqali to'landi.")
+        print(f"{summa} so'm karta orqali to'landi.")
 
 
 NaqdTolov().tolash(50000)

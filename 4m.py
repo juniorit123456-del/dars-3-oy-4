@@ -9,12 +9,12 @@ class Transport(ABC):
 
 class Mashina(Transport):
     def harakatlan(self):
-        print("Mashina yo'lda harakatlanmoqda.")
+        print("Mashina harakatlanmoqda.")
 
 
 class Velosiped(Transport):
     def harakatlan(self):
-        print("Velosiped yo'lda harakatlanmoqda.")
+        print("Velosiped harakatlanmoqda.")
 
 
 Mashina().harakatlan()

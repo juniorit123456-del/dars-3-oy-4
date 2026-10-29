@@ -13,7 +13,7 @@ class Mahsulot:
         if son <= self.__miqdor:
             self.__miqdor -= son
         else:
-            print("Yetarli mahsulot yo'q")
+            print("Mahsulot yetarli emas")
 
 
 mahsulot = Mahsulot("Daftar", 20)
